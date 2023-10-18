@@ -1,7 +1,7 @@
 [
   {
     "name": "Beats Solo Pro",
-    "image": "beats_solo_pro.jpg",
+    "image": "https://i.ibb.co/wd8gqWz/h1.png",
     "brand": "Apple",
     "price": 299.99,
     "discount": 15,
@@ -16,12 +16,12 @@
     "specifications": {
       "driver": "Custom high-excursion driver",
       "battery_life": "Up to 22 hours with ANC and Transparency mode off"
-    }
+    },
+    "category": "Headphones"
   },
-
   {
     "name": "Apple Watch Series 7",
-    "image": "apple_watch_series_7.jpg",
+    "image": "https://i.ibb.co/2W604Zd/watch-5.png",
     "brand": "Apple",
     "price": 449.99,
     "discount": 12,
@@ -36,11 +36,12 @@
     "specifications": {
       "display": "Always-On Retina LTPO OLED display",
       "water_resistance": "Water-resistant up to 50 meters"
-    }
+    },
+    "category": "Watch"
   },
   {
     "name": "Apple Watch SE",
-    "image": "apple_watch_se.jpg",
+    "image": "https://i.ibb.co/0DxCRL7/watch-4.png",
     "brand": "Apple",
     "price": 279.99,
     "discount": 10,
@@ -55,11 +56,12 @@
     "specifications": {
       "display": "Retina LTPO OLED display",
       "water_resistance": "Water-resistant up to 50 meters"
-    }
+    },
+    "category": "Watch"
   },
   {
     "name": "Apple Watch Series 3",
-    "image": "apple_watch_series_3.jpg",
+    "image": "https://i.ibb.co/j5bLKxM/watch-3.png",
     "brand": "Apple",
     "price": 199.99,
     "discount": 8,
@@ -70,11 +72,12 @@
     "specifications": {
       "display": "Retina OLED display",
       "water_resistance": "Water-resistant up to 50 meters"
-    }
+    },
+    "category": "Watch"
   },
   {
     "name": "MacBook Air M2",
-    "image": "macbook_air_m2.jpg",
+    "image": "https://i.ibb.co/G7hH6B2/apple-1.png",
     "brand": "Apple",
     "price": 1199.99,
     "discount": 8,
@@ -85,11 +88,12 @@
     "specifications": {
       "processor": "Apple M2 Chip",
       "memory": "16GB RAM, 512GB SSD"
-    }
+    },
+    "category": "Laptops"
   },
   {
     "name": "MacBook Pro 16-inch",
-    "image": "macbook_pro_16.jpg",
+    "image": "https://i.ibb.co/jLmsnWh/mac-3.png",
     "brand": "Apple",
     "price": 2399.99,
     "discount": 5,
@@ -104,41 +108,12 @@
     "specifications": {
       "processor": "2.3GHz 8-core Intel Core i9",
       "memory": "16GB RAM, 1TB SSD"
-    }
-  },
-  {
-    "name": "iPhone 13 Pro",
-    "image": "iphone_13_pro.jpg",
-    "brand": "Apple",
-    "price": 1099.99,
-    "discount": 8,
-    "rating": 4.5,
-    "title": "Pro Camera System and 5G Connectivity",
-    "short_description": "Capture stunning photos and enjoy blazing-fast 5G with iPhone 13 Pro.",
-    "features": ["Pro Camera System", "A15 Bionic Chip", "5G Capable"],
-    "specifications": {
-      "display": "6.1-inch Super Retina XDR OLED display",
-      "camera": "Triple 12MP Ultra Wide, Wide, and Telephoto cameras"
-    }
-  },
-  {
-    "name": "iPhone 13 Mini",
-    "image": "iphone_13_mini.jpg",
-    "brand": "Apple",
-    "price": 699.99,
-    "discount": 6,
-    "rating": 4.5,
-    "title": "Compact 5G Smartphone",
-    "short_description": "Powerful features in a compact size with iPhone 13 Mini.",
-    "features": ["A15 Bionic Chip", "Dual 12MP Cameras", "5G Capable"],
-    "specifications": {
-      "display": "5.4-inch Super Retina XDR OLED display",
-      "camera": "Dual 12MP Ultra Wide and Wide cameras"
-    }
+    },
+    "category": "Laptops"
   },
   {
     "name": "Huawei FreeBuds Pro",
-    "image": "huawei_freebuds_pro.jpg",
+    "image": "https://i.ibb.co/zVNG8nZ/h2.png",
     "brand": "Huawei",
     "price": 179.99,
     "discount": 15,
@@ -153,11 +128,12 @@
     "specifications": {
       "driver": "11mm dynamic driver",
       "battery_life": "Up to 7 hours of playback on a single charge"
-    }
+    },
+    "category": "Headphones"
   },
   {
     "name": "Huawei FreeLace Pro",
-    "image": "huawei_freelace_pro.jpg",
+    "image": "https://i.ibb.co/VJ9749H/h3.png",
     "brand": "Huawei",
     "price": 99.99,
     "discount": 10,
@@ -172,12 +148,12 @@
     "specifications": {
       "driver": "14.2mm dynamic driver",
       "battery_life": "Up to 24 hours of playback on a single charge"
-    }
+    },
+    "category": "Headphones"
   },
-
   {
     "name": "Huawei Watch GT 3",
-    "image": "huawei_watch_gt3.jpg",
+    "image": "https://i.ibb.co/CnDR17X/watch-2.png",
     "brand": "Huawei",
     "price": 279.99,
     "discount": 10,
@@ -188,11 +164,12 @@
     "specifications": {
       "display": "1.43-inch AMOLED touchscreen",
       "battery_life": "Up to 14 days of typical usage"
-    }
+    },
+    "category": "Watch"
   },
   {
     "name": "Huawei Watch Fit",
-    "image": "huawei_watch_fit.jpg",
+    "image": "https://i.ibb.co/FY9jSFG/watch-1.png",
     "brand": "Huawei",
     "price": 129.99,
     "discount": 8,
@@ -203,11 +180,12 @@
     "specifications": {
       "display": "1.64-inch AMOLED touchscreen",
       "battery_life": "Up to 10 days of typical usage"
-    }
+    },
+    "category": "Watch"
   },
   {
     "name": "Huawei MateBook X Pro",
-    "image": "huawei_matebook_x_pro.jpg",
+    "image": "https://i.ibb.co/MN1kLMf/m-1.png",
     "brand": "Huawei",
     "price": 1499.99,
     "discount": 8,
@@ -222,11 +200,12 @@
     "specifications": {
       "processor": "10th Gen Intel Core i7-10510U",
       "memory": "16GB RAM, 1TB SSD"
-    }
+    },
+    "category": "Laptops"
   },
   {
     "name": "Huawei MateBook D 15",
-    "image": "huawei_matebook_d_15.jpg",
+    "image": "https://i.ibb.co/N2tGTT8/m-2.png",
     "brand": "Huawei",
     "price": 699.99,
     "discount": 6,
@@ -241,49 +220,12 @@
     "specifications": {
       "processor": "AMD Ryzen 5 3500U",
       "memory": "8GB RAM, 256GB SSD"
-    }
-  },
-  {
-    "name": "Huawei P40 Pro",
-    "image": "huawei_p40_pro.jpg",
-    "brand": "Huawei",
-    "price": 899.99,
-    "discount": 6,
-    "rating": 4.5,
-    "title": "Flagship Smartphone with Leica Quad Camera",
-    "short_description": "Capture professional-grade photos with Huawei P40 Pro.",
-    "features": [
-      "Leica Quad Camera",
-      "5G Connectivity",
-      "Water and Dust Resistant"
-    ],
-    "specifications": {
-      "display": "6.58-inch OLED display",
-      "camera": "50MP + 40MP + 12MP + ToF 3D Quad Camera"
-    }
-  },
-  {
-    "name": "Huawei Nova 7i",
-    "image": "huawei_nova_7i.jpg",
-    "brand": "Huawei",
-    "price": 299.99,
-    "discount": 5,
-    "rating": 4.5,
-    "title": "Mid-Range Smartphone with Quad Cameras",
-    "short_description": "Huawei Nova 7i offers versatile camera capabilities at an affordable price.",
-    "features": [
-      "Quad Cameras",
-      "Kirin 810 Processor",
-      "6.4-inch Full HD+ Display"
-    ],
-    "specifications": {
-      "display": "6.4-inch IPS LCD display",
-      "camera": "48MP + 8MP + 2MP + 2MP Quad Camera"
-    }
+    },
+    "category": "Laptops"
   },
   {
     "name": "HP Spectre x360 13",
-    "image": "hp_spectre_x360_13.jpg",
+    "image": "https://i.ibb.co/M6SpMbw/m-3.png",
     "brand": "HP",
     "price": 1099.99,
     "discount": 10,
@@ -298,11 +240,12 @@
     "specifications": {
       "processor": "Intel Core i7-1165G7",
       "memory": "16GB RAM"
-    }
+    },
+    "category": "Laptops"
   },
   {
     "name": "HP Envy 15",
-    "image": "hp_envy_15.jpg",
+    "image": "https://i.ibb.co/G7hH6B2/apple-1.png",
     "brand": "HP",
     "price": 999.99,
     "discount": 8,
@@ -317,11 +260,12 @@
     "specifications": {
       "processor": "Intel Core i7-10750H",
       "memory": "16GB RAM"
-    }
+    },
+    "category": "Laptops"
   },
   {
     "name": "HP Pavilion 14",
-    "image": "hp_pavilion_14.jpg",
+    "image": "https://i.ibb.co/8Dn1nkz/m-5.png",
     "brand": "HP",
     "price": 599.99,
     "discount": 6,
@@ -336,11 +280,12 @@
     "specifications": {
       "processor": "AMD Ryzen 5 4500U",
       "memory": "8GB RAM"
-    }
+    },
+    "category": "Laptops"
   },
   {
     "name": "HP Omen 15",
-    "image": "hp_omen_15.jpg",
+    "image": "https://i.ibb.co/NFzgWmZ/l3.png",
     "brand": "HP",
     "price": 1199.99,
     "discount": 12,
@@ -355,11 +300,12 @@
     "specifications": {
       "processor": "Intel Core i7-10750H",
       "memory": "16GB RAM, 512GB SSD"
-    }
+    },
+    "category": "Laptops"
   },
   {
     "name": "HP ZBook 15 G6",
-    "image": "hp_zbook_15_g6.jpg",
+    "image": "https://i.ibb.co/8Dn1nkz/m-5.png",
     "brand": "HP",
     "price": 1799.99,
     "discount": 15,
@@ -374,11 +320,12 @@
     "specifications": {
       "processor": "Intel Xeon E-2276M",
       "memory": "32GB RAM, 1TB SSD"
-    }
+    },
+    "category": "Laptops"
   },
   {
     "name": "HP Chromebook 14",
-    "image": "hp_chromebook_14.jpg",
+    "image": "https://i.ibb.co/XbgJrtm/m-6.png",
     "brand": "HP",
     "price": 279.99,
     "discount": 5,
@@ -393,11 +340,12 @@
     "specifications": {
       "processor": "Intel Celeron N4000",
       "memory": "4GB RAM, 64GB eMMC"
-    }
+    },
+    "category": "Laptops"
   },
   {
     "name": "Dell XPS 13",
-    "image": "dell_xps_13.jpg",
+    "image": "https://i.ibb.co/jLmsnWh/mac-3.png",
     "brand": "Dell",
     "price": 1299.99,
     "discount": 10,
@@ -412,11 +360,12 @@
     "specifications": {
       "processor": "Intel Core i7-1165G7",
       "memory": "16GB RAM"
-    }
+    },
+    "category": "Laptops"
   },
   {
     "name": "Dell Inspiron 15",
-    "image": "dell_inspiron_15.jpg",
+    "image": "https://i.ibb.co/KLYK8gN/l1.png",
     "brand": "Dell",
     "price": 899.99,
     "discount": 8,
@@ -431,11 +380,12 @@
     "specifications": {
       "processor": "Intel Core i5-1135G7",
       "memory": "8GB RAM"
-    }
+    },
+    "category": "Laptops"
   },
   {
     "name": "Dell Latitude 14",
-    "image": "dell_latitude_14.jpg",
+    "image": "https://i.ibb.co/G7hH6B2/apple-1.png",
     "brand": "Dell",
     "price": 1099.99,
     "discount": 6,
@@ -450,11 +400,12 @@
     "specifications": {
       "processor": "Intel Core i5-10310U",
       "memory": "8GB RAM"
-    }
+    },
+    "category": "Laptops"
   },
   {
     "name": "Dell G5 15",
-    "image": "dell_g5_15.jpg",
+    "image": "https://i.ibb.co/NFzgWmZ/l3.png",
     "brand": "Dell",
     "price": 1199.99,
     "discount": 12,
@@ -470,11 +421,12 @@
     "specifications": {
       "processor": "Intel Core i7-10750H",
       "memory": "16GB RAM"
-    }
+    },
+    "category": "Laptops"
   },
   {
     "name": "Dell Precision 5550",
-    "image": "dell_precision_5550.jpg",
+    "image": "https://i.ibb.co/KLYK8gN/l1.png",
     "brand": "Dell",
     "price": 1999.99,
     "discount": 15,
@@ -490,11 +442,12 @@
     "specifications": {
       "processor": "Intel Core i9-10885H",
       "memory": "32GB RAM"
-    }
+    },
+    "category": "Laptops"
   },
   {
     "name": "Dell Chromebook 14",
-    "image": "dell_chromebook_14.jpg",
+    "image": "https://i.ibb.co/Ss1TSmj/l5.png",
     "brand": "Dell",
     "price": 299.99,
     "discount": 5,
@@ -509,11 +462,12 @@
     "specifications": {
       "processor": "Intel Celeron N4020",
       "memory": "4GB RAM"
-    }
+    },
+    "category": "Laptops"
   },
   {
     "name": "MI AirDots Pro 2",
-    "image": "mi_airdots_pro_2.jpg",
+    "image": "https://i.ibb.co/YPN7hww/h-4.png",
     "brand": "MI",
     "price": 79.99,
     "discount": 10,
@@ -528,11 +482,12 @@
     "specifications": {
       "driver": "14.2mm dynamic driver",
       "battery_life": "Up to 5 hours of playback on a single charge"
-    }
+    },
+    "category": "Headphones"
   },
   {
     "name": "MI Redmi Note 10 Pro",
-    "image": "mi_redmi_note_10_pro.jpg",
+    "image": "https://i.ibb.co/NnBp2nj/m-1.webp",
     "brand": "MI",
     "price": 249.99,
     "discount": 8,
@@ -547,11 +502,12 @@
     "specifications": {
       "display": "6.67-inch AMOLED display",
       "camera": "108MP + 8MP + 5MP + 2MP Quad Camera"
-    }
+    },
+    "category": "Smartphones"
   },
   {
     "name": "MI Smart Band 6",
-    "image": "mi_smart_band_6.jpg",
+    "image": "https://i.ibb.co/FY9jSFG/watch-1.png",
     "brand": "MI",
     "price": 39.99,
     "discount": 10,
@@ -566,30 +522,52 @@
     "specifications": {
       "display": "1.56-inch AMOLED touchscreen",
       "water_resistance": "Water-resistant up to 50 meters"
-    }
+    },
+    "category": "Watch"
   },
   {
-    "name": "MI RedmiBook Pro 14",
-    "image": "mi_redmibook_pro_14.jpg",
-    "brand": "MI",
-    "price": 699.99,
-    "discount": 6,
+    "name": "Xiaomi Redmi Note 9 Pro",
+    "image": "https://i.ibb.co/6bfsyfs/mobile-3.png",
+    "brand": "Xiaomi",
+    "price": 229.99,
+    "discount": 10,
     "rating": 4.5,
-    "title": "Powerful and Slim Laptop",
-    "short_description": "MI RedmiBook Pro 14 offers high performance in a slim and lightweight design.",
+    "title": "Pro Camera Smartphone",
+    "short_description": "Capture incredible photos with Redmi Note 9 Pro's advanced camera system.",
     "features": [
-      "14-inch 2.5K Display",
-      "Intel Core i5 Processor",
-      "NVIDIA GeForce MX450 GPU"
+      "64MP Quad Camera",
+      "6.67-inch IPS LCD Display",
+      "5,020mAh Battery"
     ],
     "specifications": {
-      "processor": "Intel Core i5-11300H",
-      "memory": "16GB RAM, 512GB SSD"
-    }
+      "display": "6.67-inch IPS LCD display",
+      "camera": "64MP + 8MP + 5MP + 2MP Quad Camera"
+    },
+    "category": "Smartphones"
+  },
+  {
+    "name": "Xiaomi Redmi Note 11 Pro",
+    "image": "https://i.ibb.co/MRc1Lfk/mobile-2.png",
+    "brand": "Samsung",
+    "price": 799.99,
+    "discount": 15,
+    "rating": 4.8,
+    "title": "High-End Smartphone",
+    "short_description": "Experience cutting-edge technology with the Samsung Galaxy S21.",
+    "features": [
+      "64MP Triple Camera",
+      "6.2-inch Dynamic AMOLED Display",
+      "5G Capable"
+    ],
+    "specifications": {
+      "display": "6.2-inch Dynamic AMOLED display",
+      "camera": "64MP + 12MP + 12MP Triple Camera"
+    },
+    "category": "Smartphones"
   },
   {
     "name": "Lenovo Legion Y740",
-    "image": "lenovo_legion_y740.jpg",
+    "image": "https://i.ibb.co/CPMb3NX/l4.png",
     "brand": "Lenovo",
     "price": 1499.99,
     "discount": 10,
@@ -604,11 +582,12 @@
     "specifications": {
       "processor": "Intel Core i7-9750H",
       "memory": "16GB RAM, 512GB SSD"
-    }
+    },
+    "category": "Laptops"
   },
   {
     "name": "Lenovo ThinkPad X1 Carbon",
-    "image": "lenovo_thinkpad_x1_carbon.jpg",
+    "image": "https://i.ibb.co/NFzgWmZ/l3.png",
     "brand": "Lenovo",
     "price": 1299.99,
     "discount": 8,
@@ -623,11 +602,12 @@
     "specifications": {
       "processor": "Intel Core i5-8265U",
       "memory": "16GB RAM, 256GB NVMe SSD"
-    }
+    },
+    "category": "Laptops"
   },
   {
     "name": "Lenovo Tab P11 Pro",
-    "image": "lenovo_tab_p11_pro.jpg",
+    "image": "https://i.ibb.co/3YZCwNP/l2.png",
     "brand": "Lenovo",
     "price": 499.99,
     "discount": 5,
@@ -642,11 +622,12 @@
     "specifications": {
       "display": "11.5-inch 2K OLED touchscreen",
       "audio": "Quad JBL Speakers with Dolby Atmos"
-    }
+    },
+    "category": "Laptops"
   },
   {
     "name": "Lenovo IdeaPad Flex 5",
-    "image": "lenovo_ideapad_flex_5.jpg",
+    "image": "https://i.ibb.co/KLYK8gN/l1.png",
     "brand": "Lenovo",
     "price": 699.99,
     "discount": 6,
@@ -661,6 +642,7 @@
     "specifications": {
       "processor": "AMD Ryzen 5 4500U",
       "memory": "8GB RAM, 256GB NVMe SSD"
-    }
+    },
+    "category": "Laptops"
   }
 ]

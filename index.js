@@ -57,15 +57,32 @@ async function run() {
     // Post Operation
     app.post("/products", async (req, res) => {
       const product = req.body;
-      console.log(req.body);
       const result = await dataCollection.insertOne(product);
       res.send(result);
     });
 
-    // Update Products 
-    app.put(`/products/:id`, (req, res)=>{
-
-    })
+    // Update Products
+    app.put(`/products/:id`, async (req, res) => {
+      const id = req.params.id;
+      const updateData = req.body;
+      console.log(updateData);
+      console.log(id);
+      const filter = { _id: new ObjectId(id) };
+      const options = { upsert: true };
+      const updateDoc = {
+        $set: {
+          name: updateData.name,
+          brand: updateData.brand,
+          category: updateData.category,
+          price: updateData.price,
+          description: updateData.description,
+          photo: updateData.photo,
+          rating: updateData.rating,
+        },
+      };
+      const result = await dataCollection.updateOne(filter, updateDoc, options);
+      res.send(result);
+    });
 
     // Get all storedItem
     app.get("/storedItem", async (req, res) => {
@@ -76,7 +93,10 @@ async function run() {
     // Add item store in database
     app.post("/storedItem", async (req, res) => {
       const item = req.body;
-      console.log(item);
+      const exist = await storeCollection.findOne({_id: item._id}) 
+      if(exist){
+        return res.json({ message: 'Item already exists' });
+      }
       const result = await storeCollection.insertOne(item);
       res.send(result);
     });
@@ -84,7 +104,6 @@ async function run() {
     // delete Item form storedItem
     app.delete("/storedItem/:id", async (req, res) => {
       const id = req.params.id;
-      console.log(id);
       const query = { _id: id };
       const result = await storeCollection.deleteOne(query);
       res.send(result);
