@@ -1,0 +1,666 @@
+[
+  {
+    "name": "Beats Solo Pro",
+    "image": "beats_solo_pro.jpg",
+    "brand": "Apple",
+    "price": 299.99,
+    "discount": 15,
+    "rating": 4.5,
+    "title": "On-Ear Noise Cancelling Headphones",
+    "short_description": "Beats Solo Pro delivers premium sound and active noise cancellation.",
+    "features": [
+      "Active Noise Cancelling",
+      "Transparency Mode",
+      "Apple H1 Chip"
+    ],
+    "specifications": {
+      "driver": "Custom high-excursion driver",
+      "battery_life": "Up to 22 hours with ANC and Transparency mode off"
+    }
+  },
+
+  {
+    "name": "Apple Watch Series 7",
+    "image": "apple_watch_series_7.jpg",
+    "brand": "Apple",
+    "price": 449.99,
+    "discount": 12,
+    "rating": 4.5,
+    "title": "Advanced Smartwatch with Always-On Display",
+    "short_description": "Stay connected and track your fitness with Apple Watch Series 7.",
+    "features": [
+      "Always-On Retina Display",
+      "Blood Oxygen Sensor",
+      "Sleep Tracking"
+    ],
+    "specifications": {
+      "display": "Always-On Retina LTPO OLED display",
+      "water_resistance": "Water-resistant up to 50 meters"
+    }
+  },
+  {
+    "name": "Apple Watch SE",
+    "image": "apple_watch_se.jpg",
+    "brand": "Apple",
+    "price": 279.99,
+    "discount": 10,
+    "rating": 4.5,
+    "title": "Affordable Smartwatch with Essential Features",
+    "short_description": "Stay connected and active with Apple Watch SE.",
+    "features": [
+      "Retina Display",
+      "Fall Detection",
+      "Fitness and Health Tracking"
+    ],
+    "specifications": {
+      "display": "Retina LTPO OLED display",
+      "water_resistance": "Water-resistant up to 50 meters"
+    }
+  },
+  {
+    "name": "Apple Watch Series 3",
+    "image": "apple_watch_series_3.jpg",
+    "brand": "Apple",
+    "price": 199.99,
+    "discount": 8,
+    "rating": 4.5,
+    "title": "Smartwatch with GPS",
+    "short_description": "Basic smartwatch with built-in GPS for fitness tracking.",
+    "features": ["Retina Display", "Built-in GPS", "Swimproof Design"],
+    "specifications": {
+      "display": "Retina OLED display",
+      "water_resistance": "Water-resistant up to 50 meters"
+    }
+  },
+  {
+    "name": "MacBook Air M2",
+    "image": "macbook_air_m2.jpg",
+    "brand": "Apple",
+    "price": 1199.99,
+    "discount": 8,
+    "rating": 4.5,
+    "title": "Ultra-Portable Laptop with M2 Chip",
+    "short_description": "Powerful and lightweight MacBook Air with the latest M2 chip.",
+    "features": ["Retina Display", "M2 Chip", "Touch ID"],
+    "specifications": {
+      "processor": "Apple M2 Chip",
+      "memory": "16GB RAM, 512GB SSD"
+    }
+  },
+  {
+    "name": "MacBook Pro 16-inch",
+    "image": "macbook_pro_16.jpg",
+    "brand": "Apple",
+    "price": 2399.99,
+    "discount": 5,
+    "rating": 4.5,
+    "title": "Powerful Laptop for Professionals",
+    "short_description": "Experience the ultimate performance with MacBook Pro 16-inch.",
+    "features": [
+      "Retina Display",
+      "Intel Core i9 Processor",
+      "AMD Radeon Pro 5500M Graphics"
+    ],
+    "specifications": {
+      "processor": "2.3GHz 8-core Intel Core i9",
+      "memory": "16GB RAM, 1TB SSD"
+    }
+  },
+  {
+    "name": "iPhone 13 Pro",
+    "image": "iphone_13_pro.jpg",
+    "brand": "Apple",
+    "price": 1099.99,
+    "discount": 8,
+    "rating": 4.5,
+    "title": "Pro Camera System and 5G Connectivity",
+    "short_description": "Capture stunning photos and enjoy blazing-fast 5G with iPhone 13 Pro.",
+    "features": ["Pro Camera System", "A15 Bionic Chip", "5G Capable"],
+    "specifications": {
+      "display": "6.1-inch Super Retina XDR OLED display",
+      "camera": "Triple 12MP Ultra Wide, Wide, and Telephoto cameras"
+    }
+  },
+  {
+    "name": "iPhone 13 Mini",
+    "image": "iphone_13_mini.jpg",
+    "brand": "Apple",
+    "price": 699.99,
+    "discount": 6,
+    "rating": 4.5,
+    "title": "Compact 5G Smartphone",
+    "short_description": "Powerful features in a compact size with iPhone 13 Mini.",
+    "features": ["A15 Bionic Chip", "Dual 12MP Cameras", "5G Capable"],
+    "specifications": {
+      "display": "5.4-inch Super Retina XDR OLED display",
+      "camera": "Dual 12MP Ultra Wide and Wide cameras"
+    }
+  },
+  {
+    "name": "Huawei FreeBuds Pro",
+    "image": "huawei_freebuds_pro.jpg",
+    "brand": "Huawei",
+    "price": 179.99,
+    "discount": 15,
+    "rating": 4.5,
+    "title": "True Wireless Noise-Canceling Earbuds",
+    "short_description": "Experience immersive sound with Huawei FreeBuds Pro.",
+    "features": [
+      "Active Noise Cancellation",
+      "Dual Connection",
+      "Touch Control"
+    ],
+    "specifications": {
+      "driver": "11mm dynamic driver",
+      "battery_life": "Up to 7 hours of playback on a single charge"
+    }
+  },
+  {
+    "name": "Huawei FreeLace Pro",
+    "image": "huawei_freelace_pro.jpg",
+    "brand": "Huawei",
+    "price": 99.99,
+    "discount": 10,
+    "rating": 4.5,
+    "title": "Wireless Noise-Canceling Earphones",
+    "short_description": "Enjoy high-quality sound with Huawei FreeLace Pro.",
+    "features": [
+      "Active Noise Cancellation",
+      "HiPair Technology",
+      "Long Battery Life"
+    ],
+    "specifications": {
+      "driver": "14.2mm dynamic driver",
+      "battery_life": "Up to 24 hours of playback on a single charge"
+    }
+  },
+
+  {
+    "name": "Huawei Watch GT 3",
+    "image": "huawei_watch_gt3.jpg",
+    "brand": "Huawei",
+    "price": 279.99,
+    "discount": 10,
+    "rating": 4.5,
+    "title": "Smartwatch with Long Battery Life",
+    "short_description": "Stay connected and monitor your health with Huawei Watch GT 3.",
+    "features": ["AMOLED Display", "2-Week Battery Life", "SpO2 Monitoring"],
+    "specifications": {
+      "display": "1.43-inch AMOLED touchscreen",
+      "battery_life": "Up to 14 days of typical usage"
+    }
+  },
+  {
+    "name": "Huawei Watch Fit",
+    "image": "huawei_watch_fit.jpg",
+    "brand": "Huawei",
+    "price": 129.99,
+    "discount": 8,
+    "rating": 4.5,
+    "title": "Slim Fitness Smartwatch",
+    "short_description": "Stay fit and stylish with Huawei Watch Fit.",
+    "features": ["AMOLED Display", "SpO2 Monitoring", "96 Workout Modes"],
+    "specifications": {
+      "display": "1.64-inch AMOLED touchscreen",
+      "battery_life": "Up to 10 days of typical usage"
+    }
+  },
+  {
+    "name": "Huawei MateBook X Pro",
+    "image": "huawei_matebook_x_pro.jpg",
+    "brand": "Huawei",
+    "price": 1499.99,
+    "discount": 8,
+    "rating": 4.5,
+    "title": "Slim and Powerful Laptop",
+    "short_description": "Huawei MateBook X Pro delivers high performance in a slim design.",
+    "features": [
+      "3K LTPS Display",
+      "Intel Core i7 Processor",
+      "NVIDIA GeForce MX250 GPU"
+    ],
+    "specifications": {
+      "processor": "10th Gen Intel Core i7-10510U",
+      "memory": "16GB RAM, 1TB SSD"
+    }
+  },
+  {
+    "name": "Huawei MateBook D 15",
+    "image": "huawei_matebook_d_15.jpg",
+    "brand": "Huawei",
+    "price": 699.99,
+    "discount": 6,
+    "rating": 4.5,
+    "title": "Budget-Friendly Laptop",
+    "short_description": "Huawei MateBook D 15 offers performance on a budget.",
+    "features": [
+      "Full HD Display",
+      "AMD Ryzen 5 Processor",
+      "Thin and Lightweight"
+    ],
+    "specifications": {
+      "processor": "AMD Ryzen 5 3500U",
+      "memory": "8GB RAM, 256GB SSD"
+    }
+  },
+  {
+    "name": "Huawei P40 Pro",
+    "image": "huawei_p40_pro.jpg",
+    "brand": "Huawei",
+    "price": 899.99,
+    "discount": 6,
+    "rating": 4.5,
+    "title": "Flagship Smartphone with Leica Quad Camera",
+    "short_description": "Capture professional-grade photos with Huawei P40 Pro.",
+    "features": [
+      "Leica Quad Camera",
+      "5G Connectivity",
+      "Water and Dust Resistant"
+    ],
+    "specifications": {
+      "display": "6.58-inch OLED display",
+      "camera": "50MP + 40MP + 12MP + ToF 3D Quad Camera"
+    }
+  },
+  {
+    "name": "Huawei Nova 7i",
+    "image": "huawei_nova_7i.jpg",
+    "brand": "Huawei",
+    "price": 299.99,
+    "discount": 5,
+    "rating": 4.5,
+    "title": "Mid-Range Smartphone with Quad Cameras",
+    "short_description": "Huawei Nova 7i offers versatile camera capabilities at an affordable price.",
+    "features": [
+      "Quad Cameras",
+      "Kirin 810 Processor",
+      "6.4-inch Full HD+ Display"
+    ],
+    "specifications": {
+      "display": "6.4-inch IPS LCD display",
+      "camera": "48MP + 8MP + 2MP + 2MP Quad Camera"
+    }
+  },
+  {
+    "name": "HP Spectre x360 13",
+    "image": "hp_spectre_x360_13.jpg",
+    "brand": "HP",
+    "price": 1099.99,
+    "discount": 10,
+    "rating": 4.5,
+    "title": "Premium Convertible Laptop",
+    "short_description": "Experience versatility and performance with HP Spectre x360 13.",
+    "features": [
+      "13.3-inch 4K OLED Touchscreen",
+      "Intel Core i7 Processor",
+      "512GB SSD"
+    ],
+    "specifications": {
+      "processor": "Intel Core i7-1165G7",
+      "memory": "16GB RAM"
+    }
+  },
+  {
+    "name": "HP Envy 15",
+    "image": "hp_envy_15.jpg",
+    "brand": "HP",
+    "price": 999.99,
+    "discount": 8,
+    "rating": 4.5,
+    "title": "Elegant High-Performance Laptop",
+    "short_description": "Elevate your computing experience with the HP Envy 15.",
+    "features": [
+      "15.6-inch 4K OLED Display",
+      "Intel Core i7 Processor",
+      "1TB SSD"
+    ],
+    "specifications": {
+      "processor": "Intel Core i7-10750H",
+      "memory": "16GB RAM"
+    }
+  },
+  {
+    "name": "HP Pavilion 14",
+    "image": "hp_pavilion_14.jpg",
+    "brand": "HP",
+    "price": 599.99,
+    "discount": 6,
+    "rating": 4.5,
+    "title": "Affordable Everyday Laptop",
+    "short_description": "Get things done with the reliable HP Pavilion 14.",
+    "features": [
+      "14-inch Full HD Display",
+      "AMD Ryzen 5 Processor",
+      "256GB SSD"
+    ],
+    "specifications": {
+      "processor": "AMD Ryzen 5 4500U",
+      "memory": "8GB RAM"
+    }
+  },
+  {
+    "name": "HP Omen 15",
+    "image": "hp_omen_15.jpg",
+    "brand": "HP",
+    "price": 1199.99,
+    "discount": 12,
+    "rating": 4.5,
+    "title": "Gaming Laptop with NVIDIA RTX Graphics",
+    "short_description": "Dominate in games with the power of the HP Omen 15.",
+    "features": [
+      "15.6-inch 144Hz FHD Display",
+      "Intel Core i7 Processor",
+      "512GB SSD"
+    ],
+    "specifications": {
+      "processor": "Intel Core i7-10750H",
+      "memory": "16GB RAM, 512GB SSD"
+    }
+  },
+  {
+    "name": "HP ZBook 15 G6",
+    "image": "hp_zbook_15_g6.jpg",
+    "brand": "HP",
+    "price": 1799.99,
+    "discount": 15,
+    "rating": 4.5,
+    "title": "Mobile Workstation for Professionals",
+    "short_description": "Power and reliability for professional work with HP ZBook 15 G6.",
+    "features": [
+      "15.6-inch 4K DreamColor Display",
+      "Intel Xeon Processor",
+      "1TB SSD"
+    ],
+    "specifications": {
+      "processor": "Intel Xeon E-2276M",
+      "memory": "32GB RAM, 1TB SSD"
+    }
+  },
+  {
+    "name": "HP Chromebook 14",
+    "image": "hp_chromebook_14.jpg",
+    "brand": "HP",
+    "price": 279.99,
+    "discount": 5,
+    "rating": 4.5,
+    "title": "Affordable Chrome OS Laptop",
+    "short_description": "Simplicity and value with the HP Chromebook 14.",
+    "features": [
+      "14-inch Full HD Touchscreen",
+      "Intel Celeron Processor",
+      "64GB eMMC"
+    ],
+    "specifications": {
+      "processor": "Intel Celeron N4000",
+      "memory": "4GB RAM, 64GB eMMC"
+    }
+  },
+  {
+    "name": "Dell XPS 13",
+    "image": "dell_xps_13.jpg",
+    "brand": "Dell",
+    "price": 1299.99,
+    "discount": 10,
+    "rating": 4.5,
+    "title": "Premium Ultrabook",
+    "short_description": "Experience incredible performance with the Dell XPS 13.",
+    "features": [
+      "13.4-inch 4K Ultra HD+ InfinityEdge Touch Display",
+      "Intel Core i7 Processor",
+      "512GB SSD"
+    ],
+    "specifications": {
+      "processor": "Intel Core i7-1165G7",
+      "memory": "16GB RAM"
+    }
+  },
+  {
+    "name": "Dell Inspiron 15",
+    "image": "dell_inspiron_15.jpg",
+    "brand": "Dell",
+    "price": 899.99,
+    "discount": 8,
+    "rating": 4.5,
+    "title": "Versatile Everyday Laptop",
+    "short_description": "Stay productive and entertained with Dell Inspiron 15.",
+    "features": [
+      "15.6-inch Full HD Touch Display",
+      "Intel Core i5 Processor",
+      "256GB SSD"
+    ],
+    "specifications": {
+      "processor": "Intel Core i5-1135G7",
+      "memory": "8GB RAM"
+    }
+  },
+  {
+    "name": "Dell Latitude 14",
+    "image": "dell_latitude_14.jpg",
+    "brand": "Dell",
+    "price": 1099.99,
+    "discount": 6,
+    "rating": 4.5,
+    "title": "Business Laptop with Security Features",
+    "short_description": "Secure and reliable computing for business needs with Dell Latitude 14.",
+    "features": [
+      "14-inch Full HD Display",
+      "Intel Core i5 Processor",
+      "256GB SSD"
+    ],
+    "specifications": {
+      "processor": "Intel Core i5-10310U",
+      "memory": "8GB RAM"
+    }
+  },
+  {
+    "name": "Dell G5 15",
+    "image": "dell_g5_15.jpg",
+    "brand": "Dell",
+    "price": 1199.99,
+    "discount": 12,
+    "rating": 4.5,
+    "title": "Gaming Laptop with NVIDIA GTX Graphics",
+    "short_description": "Immerse in gaming experiences with the power of Dell G5 15.",
+    "features": [
+      "15.6-inch 120Hz FHD Display",
+      "Intel Core i7 Processor",
+      "512GB SSD",
+      "NVIDIA GeForce GTX 1650 Ti GPU"
+    ],
+    "specifications": {
+      "processor": "Intel Core i7-10750H",
+      "memory": "16GB RAM"
+    }
+  },
+  {
+    "name": "Dell Precision 5550",
+    "image": "dell_precision_5550.jpg",
+    "brand": "Dell",
+    "price": 1999.99,
+    "discount": 15,
+    "rating": 4.5,
+    "title": "Mobile Workstation for Professionals",
+    "short_description": "High-performance workstation for demanding professional tasks.",
+    "features": [
+      "15.6-inch 4K Ultra HD+ InfinityEdge Display",
+      "Intel Core i9 Processor",
+      "1TB SSD",
+      "NVIDIA Quadro T2000 GPU"
+    ],
+    "specifications": {
+      "processor": "Intel Core i9-10885H",
+      "memory": "32GB RAM"
+    }
+  },
+  {
+    "name": "Dell Chromebook 14",
+    "image": "dell_chromebook_14.jpg",
+    "brand": "Dell",
+    "price": 299.99,
+    "discount": 5,
+    "rating": 4.5,
+    "title": "Simple and Secure Chrome OS Laptop",
+    "short_description": "Effortless computing with Dell Chromebook 14 running Chrome OS.",
+    "features": [
+      "14-inch Full HD Display",
+      "Intel Celeron Processor",
+      "64GB eMMC"
+    ],
+    "specifications": {
+      "processor": "Intel Celeron N4020",
+      "memory": "4GB RAM"
+    }
+  },
+  {
+    "name": "MI AirDots Pro 2",
+    "image": "mi_airdots_pro_2.jpg",
+    "brand": "MI",
+    "price": 79.99,
+    "discount": 10,
+    "rating": 4.5,
+    "title": "Wireless Earbuds with Active Noise Cancellation",
+    "short_description": "Enjoy high-quality sound and noise cancellation with MI AirDots Pro 2.",
+    "features": [
+      "Active Noise Cancellation",
+      "Dual Microphones",
+      "Touch Controls"
+    ],
+    "specifications": {
+      "driver": "14.2mm dynamic driver",
+      "battery_life": "Up to 5 hours of playback on a single charge"
+    }
+  },
+  {
+    "name": "MI Redmi Note 10 Pro",
+    "image": "mi_redmi_note_10_pro.jpg",
+    "brand": "MI",
+    "price": 249.99,
+    "discount": 8,
+    "rating": 4.6,
+    "title": "Pro Camera Smartphone",
+    "short_description": "Capture stunning photos with the MI Redmi Note 10 Pro's pro-grade camera system.",
+    "features": [
+      "108MP Quad Camera",
+      "6.67-inch AMOLED Display",
+      "5,020mAh Battery"
+    ],
+    "specifications": {
+      "display": "6.67-inch AMOLED display",
+      "camera": "108MP + 8MP + 5MP + 2MP Quad Camera"
+    }
+  },
+  {
+    "name": "MI Smart Band 6",
+    "image": "mi_smart_band_6.jpg",
+    "brand": "MI",
+    "price": 39.99,
+    "discount": 10,
+    "rating": 4.4,
+    "title": "Fitness Tracker with Large Display",
+    "short_description": "Track your fitness and health with the MI Smart Band 6's large AMOLED display.",
+    "features": [
+      "1.56-inch AMOLED Display",
+      "Heart Rate Monitoring",
+      "Waterproof"
+    ],
+    "specifications": {
+      "display": "1.56-inch AMOLED touchscreen",
+      "water_resistance": "Water-resistant up to 50 meters"
+    }
+  },
+  {
+    "name": "MI RedmiBook Pro 14",
+    "image": "mi_redmibook_pro_14.jpg",
+    "brand": "MI",
+    "price": 699.99,
+    "discount": 6,
+    "rating": 4.5,
+    "title": "Powerful and Slim Laptop",
+    "short_description": "MI RedmiBook Pro 14 offers high performance in a slim and lightweight design.",
+    "features": [
+      "14-inch 2.5K Display",
+      "Intel Core i5 Processor",
+      "NVIDIA GeForce MX450 GPU"
+    ],
+    "specifications": {
+      "processor": "Intel Core i5-11300H",
+      "memory": "16GB RAM, 512GB SSD"
+    }
+  },
+  {
+    "name": "Lenovo Legion Y740",
+    "image": "lenovo_legion_y740.jpg",
+    "brand": "Lenovo",
+    "price": 1499.99,
+    "discount": 10,
+    "rating": 4.7,
+    "title": "High-Performance Gaming Laptop",
+    "short_description": "Dominate your games with Lenovo Legion Y740's powerful hardware and stunning display.",
+    "features": [
+      "Intel Core i7-9750H Processor",
+      "NVIDIA GeForce RTX 2060 GPU",
+      "16GB RAM"
+    ],
+    "specifications": {
+      "processor": "Intel Core i7-9750H",
+      "memory": "16GB RAM, 512GB SSD"
+    }
+  },
+  {
+    "name": "Lenovo ThinkPad X1 Carbon",
+    "image": "lenovo_thinkpad_x1_carbon.jpg",
+    "brand": "Lenovo",
+    "price": 1299.99,
+    "discount": 8,
+    "rating": 4.8,
+    "title": "Premium Business Ultrabook",
+    "short_description": "Achieve maximum productivity with Lenovo ThinkPad X1 Carbon's sleek design and robust performance.",
+    "features": [
+      "Intel Core i5-8265U Processor",
+      "14-inch 4K HDR Display",
+      "16GB RAM"
+    ],
+    "specifications": {
+      "processor": "Intel Core i5-8265U",
+      "memory": "16GB RAM, 256GB NVMe SSD"
+    }
+  },
+  {
+    "name": "Lenovo Tab P11 Pro",
+    "image": "lenovo_tab_p11_pro.jpg",
+    "brand": "Lenovo",
+    "price": 499.99,
+    "discount": 5,
+    "rating": 4.6,
+    "title": "High-End Android Tablet",
+    "short_description": "Immerse yourself in entertainment with Lenovo Tab P11 Pro's stunning OLED display and powerful speakers.",
+    "features": [
+      "11.5-inch 2K OLED Display",
+      "Quad Speakers with Dolby Atmos",
+      "Snapdragon 730G Processor"
+    ],
+    "specifications": {
+      "display": "11.5-inch 2K OLED touchscreen",
+      "audio": "Quad JBL Speakers with Dolby Atmos"
+    }
+  },
+  {
+    "name": "Lenovo IdeaPad Flex 5",
+    "image": "lenovo_ideapad_flex_5.jpg",
+    "brand": "Lenovo",
+    "price": 699.99,
+    "discount": 6,
+    "rating": 4.5,
+    "title": "Versatile 2-in-1 Laptop",
+    "short_description": "Stay productive and creative with Lenovo IdeaPad Flex 5's flexible design and powerful performance.",
+    "features": [
+      "AMD Ryzen 5 4500U Processor",
+      "14-inch Full HD IPS Touchscreen",
+      "8GB RAM"
+    ],
+    "specifications": {
+      "processor": "AMD Ryzen 5 4500U",
+      "memory": "8GB RAM, 256GB NVMe SSD"
+    }
+  }
+]
