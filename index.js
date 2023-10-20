@@ -102,13 +102,28 @@ async function run() {
       res.send(result);
     });
 
-    // delete Item form storedItem
-    app.delete("/storedItem/:id", async (req, res) => {
+
+    // app.delete("/delete", async (req, res) => {
+    //   const id = req.body.id;
+    //   console.log(id)
+    // });
+
+
+    app.delete("/delete/:id", async (req, res) => {
       const id = req.params.id;
-      const query = { _id: id };
-      const result = await storeCollection.deleteOne(query);
-      res.send(result);
+      try {
+        const result = await storeCollection.deleteOne({ _id: new ObjectId(id) });
+        if (result.deletedCount === 1) {
+          res.json({ message: "Item deleted successfully" });
+        } else {
+          res.status(404).json({ message: "Item not found" });
+        }
+      } catch (error) {
+        console.error(error);
+        res.status(500).json({ message: "Internal server error" });
+      }
     });
+
 
     console.log(
       "Pinged your deployment. You successfully connected to MongoDB!"
