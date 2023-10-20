@@ -41,6 +41,7 @@ async function run() {
     // Find Filter data
     app.get("/products/:id", async (req, res) => {
       const id = req.params.id;
+      console.log({id})
       const query = { brand: id };
       const cursor = await dataCollection.find(query).toArray();
       res.send(cursor);
@@ -76,7 +77,7 @@ async function run() {
           category: updateData.category,
           price: updateData.price,
           description: updateData.description,
-          photo: updateData.photo,
+          image: updateData.image,
           rating: updateData.rating,
         },
       };
@@ -93,9 +94,9 @@ async function run() {
     // Add item store in database
     app.post("/storedItem", async (req, res) => {
       const item = req.body;
-      const exist = await storeCollection.findOne({_id: item._id}) 
-      if(exist){
-        return res.json({ message: 'Item already exists' });
+      const exist = await storeCollection.findOne({ _id: item._id });
+      if (exist) {
+        return res.json({ message: "Item already exists" });
       }
       const result = await storeCollection.insertOne(item);
       res.send(result);
