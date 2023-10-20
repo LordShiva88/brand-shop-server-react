@@ -41,7 +41,7 @@ async function run() {
     // Find Filter data
     app.get("/products/:id", async (req, res) => {
       const id = req.params.id;
-      console.log({id})
+      console.log({ id });
       const query = { brand: id };
       const cursor = await dataCollection.find(query).toArray();
       res.send(cursor);
