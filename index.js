@@ -101,28 +101,15 @@ async function run() {
       res.send(result);
     });
 
-    // app.delete("/delete", async (req, res) => {
-    //   const id = req.body.id;
-    //   console.log(id)
-    // });
-
-   
-      app.delete("/storedItem/:id", async (req, res) => {
-        const id = req.params.id;
-        console.log(id);
-        const query = { _id: id };
-        const result = await storeCollection.deleteOne(query);
-        res.send(result);
-      });
 
 
-    // app.delete("/storedItem/:id", async (req, res) => {
-    //   const id = req.params.id;
-    //   console.log(id);
-    //   const query = { _id: new ObjectId(id) };
-    //   const result = await storeCollection.deleteOne(query);
-    //   res.send(result);
-    // });
+    app.delete("/storedItem/:id", async (req, res) => {
+      const id = req.params.id;
+      console.log(id);
+      const query = { _id: id };
+      const result = await storeCollection.deleteOne(query);
+      res.send(result);
+    });
 
     console.log(
       "Pinged your deployment. You successfully connected to MongoDB!"
