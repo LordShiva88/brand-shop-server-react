@@ -11,8 +11,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const uri =
-  "mongodb+srv://brand-shop:Z6OwoaxeukeFqTrk@cluster0.rqtbidh.mongodb.net/?retryWrites=true&w=majority";
+const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.rqtbidh.mongodb.net/?retryWrites=true&w=majority`;
 
 const client = new MongoClient(uri, {
   serverApi: {
@@ -102,28 +101,28 @@ async function run() {
       res.send(result);
     });
 
-
     // app.delete("/delete", async (req, res) => {
     //   const id = req.body.id;
     //   console.log(id)
     // });
 
+   
+      app.delete("/storedItem/:id", async (req, res) => {
+        const id = req.params.id;
+        console.log(id);
+        const query = { _id: id };
+        const result = await storeCollection.deleteOne(query);
+        res.send(result);
+      });
 
-    app.delete("/delete/:id", async (req, res) => {
-      const id = req.params.id;
-      try {
-        const result = await storeCollection.deleteOne({ _id: new ObjectId(id) });
-        if (result.deletedCount === 1) {
-          res.json({ message: "Item deleted successfully" });
-        } else {
-          res.status(404).json({ message: "Item not found" });
-        }
-      } catch (error) {
-        console.error(error);
-        res.status(500).json({ message: "Internal server error" });
-      }
-    });
 
+    // app.delete("/storedItem/:id", async (req, res) => {
+    //   const id = req.params.id;
+    //   console.log(id);
+    //   const query = { _id: new ObjectId(id) };
+    //   const result = await storeCollection.deleteOne(query);
+    //   res.send(result);
+    // });
 
     console.log(
       "Pinged your deployment. You successfully connected to MongoDB!"
